@@ -1,3 +1,4 @@
+oc login -u system:admin
 oc get projects --all_namespaces
 oc get deploy --all_namespaces
 oc get nodes -o wide
